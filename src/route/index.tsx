@@ -1,6 +1,6 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import App from '../pages/App';
+import Aplicativo from '../pages/Aplicativo';
 import Assinaturas from '../pages/Assinaturas';
 import Equipe from '../pages/Equipe';
 import Home from '../pages/Home';
@@ -13,7 +13,7 @@ type DrawerParamList = {
   Mangas: undefined;
   Recrutamento: undefined;
   Equipe: undefined;
-  App: undefined;
+  Aplicativo: undefined;
   Assinaturas: undefined;
   Leitor18: undefined;
 };
@@ -31,7 +31,7 @@ const Navigation = () => {
         <Drawer.Screen name="Mangas" component={Mangas} />
         <Drawer.Screen name="Recrutamento" component={Recrutamento} />
         <Drawer.Screen name="Equipe" component={Equipe} />
-        <Drawer.Screen name="App" component={App} />
+        <Drawer.Screen name="Aplicativo" component={Aplicativo} />
         <Drawer.Screen name="Assinaturas" component={Assinaturas} />
         <Drawer.Screen name="Leitor18" component={Leitor18} />
       </Drawer.Navigator>

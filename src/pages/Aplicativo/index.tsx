@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import Header from '../../components/Header';
 
-const App = () => {
+const Aplicativo = () => {
   return (
     <View>
       <Header />
@@ -9,4 +9,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Aplicativo;

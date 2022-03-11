@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import Navigation from './src/route';
-import {} from 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 
 export default function App() {
   return (
